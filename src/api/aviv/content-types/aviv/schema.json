@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "avivs",
+  "info": {
+    "singularName": "aviv",
+    "pluralName": "avivs",
+    "displayName": "aviv"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dror": {
+      "type": "string"
+    }
+  }
+}
