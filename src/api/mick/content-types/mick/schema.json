@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "micks",
+  "info": {
+    "singularName": "mick",
+    "pluralName": "micks",
+    "displayName": "mick"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mick": {
+      "type": "string"
+    }
+  }
+}
