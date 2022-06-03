@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies",
+  "info": {
+    "singularName": "company",
+    "pluralName": "companies",
+    "displayName": "company"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "webpage": {
+      "type": "string"
+    },
+    "isHiring": {
+      "type": "boolean",
+      "default": false
+    },
+    "location": {
+      "displayName": "location",
+      "type": "component",
+      "repeatable": false,
+      "component": "location-info.location"
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review",
+      "mappedBy": "company"
+    },
+    "kuli_users": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::kuli-user.kuli-user",
+      "inversedBy": "companies"
+    }
+  }
+}

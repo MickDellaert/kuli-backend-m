@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_location_info_locations",
+  "info": {
+    "displayName": "location",
+    "icon": "map-marker-alt"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    }
+  }
+}

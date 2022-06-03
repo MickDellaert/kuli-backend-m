@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kuli_users",
+  "info": {
+    "singularName": "kuli-user",
+    "pluralName": "kuli-users",
+    "displayName": "kuliUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "email": {
+      "type": "email"
+    },
+    "isWorking": {
+      "type": "boolean",
+      "default": false
+    },
+    "work": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "companies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::company.company",
+      "inversedBy": "kuli_users"
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review",
+      "mappedBy": "kuli_user"
+    }
+  }
+}

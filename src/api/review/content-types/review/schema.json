@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "star": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "company": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::company.company",
+      "inversedBy": "reviews"
+    },
+    "kuli_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::kuli-user.kuli-user",
+      "inversedBy": "reviews"
+    }
+  }
+}
