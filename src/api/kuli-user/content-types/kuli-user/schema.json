@@ -4,7 +4,8 @@
   "info": {
     "singularName": "kuli-user",
     "pluralName": "kuli-users",
-    "displayName": "kuliUser"
+    "displayName": "kuliUser",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,10 +16,14 @@
       "type": "string"
     },
     "password": {
-      "type": "password"
+      "type": "password",
+      "required": true,
+      "minLength": 4,
+      "maxLength": 20
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "isWorking": {
       "type": "boolean",
@@ -41,6 +46,24 @@
       "relation": "oneToMany",
       "target": "api::review.review",
       "mappedBy": "kuli_user"
+    },
+    "sector": {
+      "type": "enumeration",
+      "enum": [
+        "tech",
+        "creative",
+        "service",
+        "education",
+        "finance"
+      ]
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female",
+        "other"
+      ]
     }
   }
 }
