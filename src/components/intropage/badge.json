@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_intropage_badges",
+  "info": {
+    "displayName": "badge",
+    "icon": "certificate"
+  },
+  "options": {},
+  "attributes": {
+    "badgeImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "badgeName": {
+      "type": "string"
+    }
+  }
+}

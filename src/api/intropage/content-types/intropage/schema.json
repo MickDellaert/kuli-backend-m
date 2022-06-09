@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "intropages",
+  "info": {
+    "singularName": "intropage",
+    "pluralName": "intropages",
+    "displayName": "intropage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bodyText": {
+      "type": "richtext"
+    },
+    "badge": {
+      "displayName": "badge",
+      "type": "component",
+      "repeatable": true,
+      "component": "intropage.badge"
+    }
+  }
+}
