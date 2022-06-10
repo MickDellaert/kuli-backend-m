@@ -4,17 +4,18 @@
   "info": {
     "singularName": "about-badge",
     "pluralName": "about-badges",
-    "displayName": "about badge"
+    "displayName": "about badge",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "textBody": {
+    "bodyText": {
       "type": "richtext"
     },
     "badge": {
