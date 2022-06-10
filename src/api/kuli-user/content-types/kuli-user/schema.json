@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "firstName": {
       "type": "string"
     },
     "password": {
@@ -64,6 +64,9 @@
         "female",
         "other"
       ]
+    },
+    "lastName": {
+      "type": "string"
     }
   }
 }
