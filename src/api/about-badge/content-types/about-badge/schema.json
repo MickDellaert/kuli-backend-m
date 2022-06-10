@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_badges",
+  "info": {
+    "singularName": "about-badge",
+    "pluralName": "about-badges",
+    "displayName": "about badge"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "textBody": {
+      "type": "richtext"
+    },
+    "badge": {
+      "type": "component",
+      "repeatable": true,
+      "component": "intropage.badge"
+    }
+  }
+}

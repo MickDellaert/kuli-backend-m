@@ -2,22 +2,27 @@
   "collectionName": "components_intropage_badges",
   "info": {
     "displayName": "badge",
-    "icon": "certificate"
+    "icon": "certificate",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "badgeImg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "badgeName": {
       "type": "string"
+    },
+    "badgeDescription": {
+      "type": "richtext"
     }
   }
 }
