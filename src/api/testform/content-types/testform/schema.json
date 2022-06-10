@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "testforms",
+  "info": {
+    "singularName": "testform",
+    "pluralName": "testforms",
+    "displayName": "testform",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.question"
+    }
+  }
+}

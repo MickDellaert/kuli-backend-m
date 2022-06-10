@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_selection_selections",
+  "info": {
+    "displayName": "selection",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "answer": {
+      "type": "string"
+    }
+  }
+}

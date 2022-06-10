@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_question_questions",
+  "info": {
+    "displayName": "question",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "prompt": {
+      "type": "text"
+    },
+    "selections": {
+      "displayName": "selection",
+      "type": "component",
+      "repeatable": true,
+      "component": "selection.selection"
+    },
+    "badge": {
+      "type": "string"
+    }
+  }
+}
