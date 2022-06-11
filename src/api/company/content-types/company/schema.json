@@ -4,7 +4,8 @@
   "info": {
     "singularName": "company",
     "pluralName": "companies",
-    "displayName": "company"
+    "displayName": "company",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -38,6 +39,11 @@
       "relation": "manyToMany",
       "target": "api::kuli-user.kuli-user",
       "mappedBy": "companies"
+    },
+    "badges": {
+      "type": "component",
+      "repeatable": true,
+      "component": "intropage.badge"
     }
   }
 }

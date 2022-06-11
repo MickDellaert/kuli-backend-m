@@ -10,9 +10,6 @@
     "answer": {
       "type": "string"
     },
-    "points": {
-      "type": "integer"
-    },
     "score": {
       "type": "string"
     }
