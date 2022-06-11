@@ -9,6 +9,9 @@
   "attributes": {
     "answer": {
       "type": "string"
+    },
+    "score": {
+      "type": "integer"
     }
   }
 }
