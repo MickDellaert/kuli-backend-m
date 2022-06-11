@@ -10,8 +10,11 @@
     "answer": {
       "type": "string"
     },
-    "score": {
+    "points": {
       "type": "integer"
+    },
+    "score": {
+      "type": "string"
     }
   }
 }
