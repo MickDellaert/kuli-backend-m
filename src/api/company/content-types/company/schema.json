@@ -41,9 +41,20 @@
       "mappedBy": "companies"
     },
     "badges": {
-      "type": "component",
-      "repeatable": true,
-      "component": "intropage.badge"
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::badge.badge",
+      "inversedBy": "companies"
+    },
+    "sector": {
+      "type": "enumeration",
+      "enum": [
+        "tech",
+        "creative",
+        "service",
+        "education",
+        "finance"
+      ]
     }
   }
 }
