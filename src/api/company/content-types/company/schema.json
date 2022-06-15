@@ -46,15 +46,11 @@
       "target": "api::badge.badge",
       "inversedBy": "companies"
     },
-    "sector": {
-      "type": "enumeration",
-      "enum": [
-        "tech",
-        "creative",
-        "service",
-        "education",
-        "finance"
-      ]
+    "sectors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sector.sector",
+      "inversedBy": "companies"
     }
   }
 }
