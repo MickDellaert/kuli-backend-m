@@ -15,12 +15,6 @@
     "firstName": {
       "type": "string"
     },
-    "password": {
-      "type": "password",
-      "required": true,
-      "minLength": 4,
-      "maxLength": 20
-    },
     "email": {
       "type": "email",
       "required": true
@@ -67,6 +61,12 @@
     },
     "lastName": {
       "type": "string"
+    },
+    "password": {
+      "type": "string",
+      "required": true,
+      "minLength": 4,
+      "maxLength": 20
     }
   }
 }
