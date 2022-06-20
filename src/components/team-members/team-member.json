@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_team_members_team_members",
+  "info": {
+    "displayName": "teamMember",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "socialMedia1": {
+      "type": "string"
+    },
+    "socialMedia2": {
+      "type": "string"
+    },
+    "socialMedia3": {
+      "type": "string"
+    }
+  }
+}

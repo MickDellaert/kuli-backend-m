@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-us",
     "pluralName": "about-uses",
-    "displayName": "About-us"
+    "displayName": "About-us",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,17 +16,24 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "bodyText": {
       "type": "richtext"
+    },
+    "teamMembers": {
+      "displayName": "teamMember",
+      "type": "component",
+      "repeatable": true,
+      "component": "team-members.team-member"
     }
   }
 }
